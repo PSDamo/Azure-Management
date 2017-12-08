@@ -3,6 +3,10 @@ Script desinged to progamtiatically remove a resource group from an Azure subscr
 Account used to run this process must have a minimum of contributor rights to the subscription.
 During this script the operator wil be promted to login to the tenant then select the required subscription and resource group.
 
+Author: Damian Lynch
+Date: 08 December 2017
+email: damian.lyncch@bluebank.io
+
 Change log:
 Version 0.1 - Initial release
 #>
@@ -23,7 +27,7 @@ $IsDelete = Remove-AzureRmResourceGroup -Name $RGName
 # Write host to comfirm success of deletion 
  if($IsDelete -eq 'True')
  {
-    Write-Host "Resource group delete successfully"
+    Write-Host "*****Resource group delete successfully*****"
  }
  
  # End of script
