@@ -6,7 +6,7 @@ $SubId = (Get-AzureRmSubscription | Out-GridView -Title "Select an Azure Subscri
 Set-AzureRmContext -Subscriptionid $SubId
 
 # Polpulate list of RG's from the selected subscription. Select the RG to be removed
-$RGName = (Get-AzureRmResourceGroup | Out-GridView -Title "Select an Resource Group …" -PassThru).ResourceGroupName
+$RGName = (Get-AzureRmResourceGroup | Out-GridView -Title "Select Resource Group for deletion …" -PassThru).ResourceGroupName
 
 # Delete the selected Resource Group
 $IsDelete = Remove-AzureRmResourceGroup -Name $RGName
