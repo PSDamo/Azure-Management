@@ -1,14 +1,18 @@
 ﻿<# 
-Script desinged to progamtiatically remove a resource group from an Azure subscription.
-Account used to run this process must have a minimum of contributor rights to the subscription.
-During this script the operator wil be promted to login to the tenant then select the required subscription and resource group.
+.Synopsis
+Script to progamatically remove a resource group from an Azure subscription.
+The issuer will be promted to login to the tenant then select the required subscription and resource group.
 
+.Prerequisite
+Account used to run this process must have a minimum of contributor rights to the subscription.
+
+.Notes
 Author: Damian Lynch
 Date: 08 December 2017
-email: damian.lyncch@bluebank.io
+email: damian.lynch@bluebank.io
 
-Change log:
-Version 0.1 - Initial release
+.Version Control
+08122017 - Version 0.1: Initial release
 #>
 
 # Login to your Azure tenant
