@@ -1,0 +1,1 @@
+﻿Get-AzureRMLog -CorrelationId '' -DetailedOutput

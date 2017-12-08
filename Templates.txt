@@ -1,0 +1,5 @@
+https://github.com/Azure/azure-quickstart-templates/tree/master/201-encrypt-create-new-vm-gallery-image
+https://github.com/Azure/azure-quickstart-templates/tree/master/201-encrypt-running-linux-vm
+https://github.com/Azure/azure-quickstart-templates/tree/master/101-vm-full-disk-encrypted-rhel
+https://github.com/Azure/azure-quickstart-templates/tree/master/201-vm-push-certificate-windows
+https://github.com/Azure/azure-quickstart-templates/tree/master/201-decrypt-running-windows-vm
